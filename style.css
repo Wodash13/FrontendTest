@@ -1,0 +1,83 @@
+body {
+	background-color: lightgray;
+}
+#base {
+    margin:0 auto;
+	background-color: white;
+    /*display: inline-block;*/
+	border-radius: 10px;
+	box-shadow: 10px 10px 40px grey;
+	padding: 25px;
+	width:370px;
+}
+#responseCorrect {
+	position:absolute;
+	visibility:hidden;
+	margin-top:10px;
+}
+#nameSearch {
+	height:20px;
+	width: 300px;
+	border-radius: 5px;
+}
+#searchButton {
+	font-weight: bold;
+	height:30px;
+}
+#userInfo {
+	min-height:100px;
+	margin-bottom:10px;
+}
+#userImage {
+	float:left;
+	width: 90px;
+	margin-right:10px;
+}
+#userFullName {
+	font-weight: bold;
+	font-size:30px;
+}
+#userName {
+	font-style: italic;
+}
+#responseError {
+	visibility:hidden;
+	position:absolute;
+	border:1px solid darkred;
+	background-color: #fb7c7c;
+	color:darkred;
+	border-radius:2px;
+	margin-top:10px;
+	padding:10px;
+}
+#repoListTitle {
+	font-weight: bold;
+	border-bottom:2px solid black;	
+	padding-bottom:10px;
+}
+#repoList {
+	max-height: 200px;
+    overflow-y: scroll;
+}
+#userReposList {
+	font-size:20px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.repo {
+	border-bottom:1px solid lightgray;
+	padding: 10px;
+	vertical-align: center;
+}
+.repoRatings {
+    display: inline-block;
+	float:right;
+}
+.repoName {
+    font-weight: bold;
+	max-width:280px;
+	display: inline-block;
+	float;left;
+}
